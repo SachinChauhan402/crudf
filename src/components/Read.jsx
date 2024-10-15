@@ -62,7 +62,7 @@ const Read = () => {
               <h5 className="card-title">{ele.name}</h5>
               <h6 className="card-subtitle mb-2 text-muted">{ele.email}</h6>
               <h6 className="card-text">{ele.age}</h6>
-              <a href="#" className="card-link" onClick={() => handleDelete(ele._id)}>Delete</a>
+              <button className="card-link" onClick={() => handleDelete(ele._id)}>Delete</button>
               <Link to={`/${ele._id}`} className="card-link">Edit</Link>
             </div>
           </div>

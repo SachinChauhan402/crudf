@@ -32,7 +32,7 @@ const Update = () => {
 
   useEffect(() => {
     getSingleUser();
-  }, []);
+  }, [getSingleUser]);
 
 
   //save updated data 
