@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#87CEFA' }}>
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">MERN</a>
+        <Link className="navbar-brand" to="/">MERN</Link>
         <button
           className="navbar-toggler"
           type="button"
